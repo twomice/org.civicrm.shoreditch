@@ -12,6 +12,7 @@
   &.collapsed {
     .crm-accordion-header {
       background-image: none;
+      border-radius: 2px;
 
       &::before {
         content: '\f105';
@@ -23,7 +24,7 @@
 .crm-accordion-header {
   background: #f3f6f7;
   background-image: none;
-  border-radius: 0;
+  border-radius: 2px 2px 0 0;
   color: #464354;
   font-size: 13px;
   font-weight: 600;
@@ -57,7 +58,6 @@
 
 .crm-accordion-wrapper .crm-master-accordion-header {
   background: #0071bd;
-  border-radius: 2px 2px 0 0;
   color: #fff;
   font-size: 18px;
   font-weight: 600;
