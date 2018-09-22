@@ -22,7 +22,7 @@
 }
 
 .crm-accordion-header {
-  background: #f3f6f7;
+  background: #d3dee2;
   background-image: none;
   border-radius: 2px 2px 0 0;
   color: #464354;
@@ -43,17 +43,24 @@
   }
 
   &:hover {
-    background: darken(#f3f6f7, 5%);
+    background: darken(#d3dee2, 5%);
   }
 
   &.active {
-    background: #d3dee2;
+    background: darken(#d3dee2, 10%);
     font-weight: 600;
 
     &:hover {
-      background: darken(#d3dee2, 5%);
+      background: darken(#d3dee2, 15%);
     }
   }
+}
+
+/* All importants because dashboard.css is added later */
+#crm-container .widget-content .crm-accordion-header {
+  background-color: #d3dee2 !important;
+  background-image: none !important;
+  color: #464354 !important;
 }
 
 .crm-accordion-wrapper .crm-master-accordion-header {
