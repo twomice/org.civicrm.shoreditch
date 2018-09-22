@@ -9,6 +9,10 @@
   padding: 8px 20px;
 }
 
+button.crm-button {
+  padding: 8px 12px;
+}
+
 a.button,
 a.button:link,
 a.button:visited,
@@ -40,4 +44,10 @@ a.button:focus {
 .crm-i-button >.crm-i {
   left: 1em;
   top: 0.8em;
+}
+
+.crm-submit-buttons,
+.action-link {
+  height: auto;
+  overflow: auto;
 }
