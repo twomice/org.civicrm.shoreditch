@@ -1,0 +1,43 @@
+.crm-button.crm-i-button input[type="button"],
+.crm-button.crm-i-button input.crm-form-submit {
+  padding-left: 33px;
+}
+
+.crm-button input[type=button],
+.crm-button input.crm-form-submit {
+  background: #0071bd;
+  padding: 8px 20px;
+}
+
+a.button,
+a.button:link,
+a.button:visited,
+input.crm-form-submit,
+.ui-dialog-buttonset .ui-button,
+input[type=button],
+.crm-button {
+  background: #0071bd;
+  border: 0;
+  border-radius: 2px;
+  color: #fff;
+  font-size: 13px;
+  padding: 8px 12px;
+  text-shadow: none;
+  text-transform: uppercase;
+}
+
+.crm-button:hover,
+.crm-button:focus,
+input[type=submit]:hover,
+input[type=button]:hover,
+.ui-dialog-buttonset .ui-button:hover,
+.ui-dialog-buttonset .ui-button:focus,
+a.button:hover,
+a.button:focus {
+  background: #005c99;
+}
+
+.crm-i-button >.crm-i {
+  left: 1em;
+  top: 0.8em;
+}

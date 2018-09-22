@@ -1,0 +1,23 @@
+input.crm-form-text,
+.crm-icon-picker-button,
+input.dateplugin,
+input.crm-form-password {
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #c2cfd8;
+  border-radius: 2px;
+  box-shadow: inset 0 0 3px 0 rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+  color: #464354;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  height: 30px;
+  line-height: 30px;
+  padding: 4px 10px;
+}
+
+.form-layout td.label,
+.form-layout-compressed td.label,
+.selector td.label,
+.form-layout-compressed th.label {
+  vertical-align: inherit;
+}
