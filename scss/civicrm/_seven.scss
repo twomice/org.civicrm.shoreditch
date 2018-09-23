@@ -1,0 +1,70 @@
+.___outside-namespace {
+  .page-civicrm {
+    #branding {
+      background: #222831 !important;
+      color: #fff !important;
+      line-height: 20px;
+      overflow: visible !important;
+      padding: 20px 40px 0 !important;
+      padding: 20px 0 0 !important;
+    }
+
+    #branding .breadcrumb {
+      color: transparent;
+      float: left;
+      left: 10px;
+      position: relative;
+      top: -5px;
+      padding: 0 40px;
+    }
+
+    #branding .breadcrumb>a {
+      color: #fff;
+      font-size: 0.8rem;
+      left: -10px;
+      padding: 0 5px;
+      position: relative;
+      padding: 0 !important;
+    }
+
+    #branding .breadcrumb>a:not(:last-of-type)::after {
+      content: '>';
+      display: inline-block;
+      font-size: 0.6em;
+      position: absolute;
+      right: -10px;
+    }
+
+    #branding h1,
+    .page-civicrm h2 {
+      font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+      font-weight: 600 !important;
+    }
+
+    #branding h1 {
+      box-sizing: border-box;
+      display: block;
+      float: none;
+      line-height: 50px !important;
+      margin: 0 0 45px !important;
+      padding: 0 15px !important;
+      position: relative;
+      top: 25px;
+      width: 100%;
+      z-index: 1;
+    }
+
+    #branding h1.page-title {
+      background: #fff;
+      box-shadow: 0 0 16px 1px rgba(0, 0, 0, 0.1);
+      color: #464354;
+      margin-bottom: 20px !important;
+      margin-top: -20px !important;
+      padding: 0 40px !important;
+    }
+
+    .add-or-remove-shortcuts.add-shortcut {
+      display: none;
+    }
+  }
+}
