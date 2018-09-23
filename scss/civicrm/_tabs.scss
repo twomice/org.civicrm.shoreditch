@@ -1,0 +1,34 @@
+.ui-widget.ui-widget-content {
+  border-color: #d3dee2;
+  padding: 0;
+}
+
+.ui-tabs .ui-tabs-nav {
+  background: #f3f6f7;
+  border-color: #d3dee2;
+  padding: 10px 10px 0;
+}
+
+.ui-tabs .ui-tabs-tab,
+ul li.crm-tab-button {
+  background: transparent;
+  border-color: #d3dee2;
+  border-radius: 2px 2px 0 0;
+  border-width: 0;
+  padding: 6px 15px;
+}
+
+.ui-tabs .ui-tabs-nav li.ui-tabs-active {
+  background: #fff;
+  border-width: 1px;
+  padding-bottom: 6px;
+}
+
+.ui-state-hover,
+.ui-widget-content .ui-state-hover,
+.ui-widget-header .ui-state-hover,
+.ui-state-focus,
+.ui-widget-content .ui-state-focus,
+.ui-widget-header .ui-state-focus {
+  background: darken(#f3f6f7, 4%);
+}
