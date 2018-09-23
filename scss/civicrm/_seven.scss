@@ -1,4 +1,25 @@
 .___outside-namespace {
+  // body.page-civicrm,
+  // #page {
+  //   background: #e8eef0 !important;
+  // }
+
+  html {
+    // Ensures that there is the same amount of vertical room for the main menu
+    // regardless of whether there is a drupal menu module enabled or not
+    .page-civicrm {
+      &:not(.toolbar) {
+        margin-top: $crm-main-menu-height !important;
+      }
+
+      .toolbar-menu {
+        height: $crm-main-menu-height !important;
+        padding-bottom: 0 !important;
+        padding-top: 0 !important;
+      }
+    }
+  }
+
   .page-civicrm {
     #branding {
       background: #222831 !important;
@@ -61,6 +82,10 @@
       margin-bottom: 20px !important;
       margin-top: -20px !important;
       padding: 0 40px !important;
+    }
+
+    #toolbar {
+      box-shadow: none;
     }
 
     .add-or-remove-shortcuts.add-shortcut {
