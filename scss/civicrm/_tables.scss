@@ -75,3 +75,14 @@ table.dataTable thead td {
 table.dataTable.no-footer {
   border-bottom-color: #d3dee2;
 }
+
+table.dataTable.stripe tbody tr.odd,
+table.dataTable.display tbody tr.odd {
+  &:not(:hover) {
+    background-color: #fff;
+  }
+}
+
+table.dataTable.display tbody td {
+  border: 0;
+}
