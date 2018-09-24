@@ -24,6 +24,7 @@ input[type=button],
   border: 0;
   border-radius: 2px;
   color: #fff;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 13px;
   height: auto;
   padding: 8px 12px;
@@ -51,4 +52,15 @@ a.button:focus {
 .action-link {
   height: auto;
   overflow: auto;
+}
+
+span.crm-hover-button, a.crm-hover-button {
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.crm-hover-button:hover,
+a.crm-hover-button:hover,
+a.crm-hover-button:active {
+  border-color: transparent;
+  background: transparent;
 }
