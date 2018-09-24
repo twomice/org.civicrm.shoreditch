@@ -1,4 +1,5 @@
 @import 'variables';
+@import 'mixins';
 @import 'SCSSROOT/org.civicrm.shoreditch/scss/bootstrap/overrides/variables';
 @import 'SCSSROOT/org.civicrm.shoreditch/base/scss/overrides/variables';
 @import 'SCSSROOT/org.civicrm.shoreditch/base/scss/vendor/bootstrap/variables';
@@ -20,3 +21,9 @@
 @import 'tabs';
 @import 'widgets';
 @import 'modals';
+
+.page-civicrm-contact-view:not([class*='page-civicrm-contact-view-']) {
+  @import 'contact-header';
+  @import 'contact-tabs';
+  @import 'contact-actions';
+}
