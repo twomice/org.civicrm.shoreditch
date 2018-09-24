@@ -91,5 +91,9 @@
     .add-or-remove-shortcuts.add-shortcut {
       display: none;
     }
+
+    tr td:last-child {
+      border-right: 0;
+    }
   }
 }
