@@ -1,0 +1,15 @@
+.status {
+  background-color: #fbf0e2;
+  border-color: #e6ab5e;
+  color: #464354;
+}
+
+div.status {
+  border-radius: 2px;
+}
+
+:not(.crm-footer) {
+  .status {
+    padding: 16px 20px;
+  }
+}
