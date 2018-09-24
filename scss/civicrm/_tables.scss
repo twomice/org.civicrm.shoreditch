@@ -45,6 +45,12 @@ tbody.scrollContent {
   }
 }
 
+// need to replicate this to make sure it doesn't get overridden
+table.row-highlight tr.odd-row:hover,
+.crm-row-selected {
+  background: #FFFFCC;
+}
+
 // jQuery dataTable
 table.dataTable thead th,
 table.dataTable thead td {
