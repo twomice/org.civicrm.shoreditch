@@ -32,23 +32,23 @@ table.pagerDisplay td {
 .even-row,
 .even,
 tbody.scrollContent tr.alternateRow {
-  &:not(.crm-row-error):not(.crm-row-ok) {
-    background: darken(#fff, 3%);
-  }
+  background: darken(#fff, 3%);
 }
 
 .odd-row,
 .odd,
 tbody.scrollContent {
-  &:not(.crm-row-error):not(.crm-row-ok) {
-    background: #fff;
-  }
+  background: #fff;
 }
 
-// need to replicate this to make sure it doesn't get overridden
-table.row-highlight tr.odd-row:hover,
-.crm-row-selected {
-  background: #FFFFCC;
+.crm-row-ok {
+  background-color: #efffe7;
+  border-bottom: 0;
+}
+
+.crm-row-error {
+  background-color: #ffecec;
+  border-bottom: 0;
 }
 
 // jQuery dataTable
