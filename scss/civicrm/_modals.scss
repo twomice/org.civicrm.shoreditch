@@ -1,0 +1,32 @@
+.crm-container.ui-dialog {
+  border: 0;
+  border-radius: 2px;
+  box-shadow: 0 3px 18px 0 rgba(48, 40, 40, 0.25);
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  padding: 0;
+}
+
+.ui-dialog-titlebar.ui-widget-header {
+  background: #f3f6f7;
+  border: 0;
+  border-bottom: 1px solid #d3dee2;
+  border-radius: 0;
+  box-shadow: 0 0 16px 1px rgba(0, 0, 0, 0.1);
+  color: #464354;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 14px 20px;
+}
+
+.ui-dialog-title {
+  background: none;
+  padding-left: 0;
+}
+
+.ui-dialog-buttonpane {
+  background: #f3f6f7;
+  border-radius: 0 0 2px 2px;
+  border-top: 1px solid #d3dee2;
+  box-shadow: 0 0 16px 1px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
