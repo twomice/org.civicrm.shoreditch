@@ -1,5 +1,7 @@
 h3 {
   background-color: #f3f6f7;
+  border: 1px solid #d3dee2;
+  border-radius: 2px;
   color: #464354;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 18px;
@@ -10,6 +12,8 @@ h3 {
 
 h3.nobackground,
 .crm-form-block h3 {
+  border: 0;
+  border-radius: none;
   padding-left: 6px;
   padding-right: 6px;
 }
