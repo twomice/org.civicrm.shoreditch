@@ -23,3 +23,9 @@
 @import 'widgets';
 @import 'modals';
 @import 'pager';
+
+.page-civicrm-contact-view:not([class*='page-civicrm-contact-view-']) {
+  @import 'contact-actions';
+  @import 'contact-header';
+  @import 'contact-tabs';
+}
