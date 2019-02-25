@@ -84,27 +84,13 @@ const PluginError = require('plugin-error');
   });
 
   gulp.task('sass:civicrm', function buildCiviCRMCSS () {
-    return gulp.src('scss/civicrm/custom-civicrm.scss')
-      .pipe(bulk({
-        includePaths: includePaths
-      }))
+    return gulp.src('scss/civicrm/**/*.scss')
       .pipe(sass({
-        outputStyle: 'compressed',
-        includePaths: includePaths,
+        outputStyle: 'expanded',
         precision: 10
       }).on('error', sass.logError))
-      .pipe(stripCssComments({ preserve: false }))
-      .pipe(postcss([
-        postcssPrefix({
-          prefix: '.crm-container ',
-          exclude: [
-            /^body/, /page-civicrm/, /crm-container/, /ui-datepicker/, /civicrm-menu/,
-            /#root-menu-div/, /jstree-contextmenu/, outsideNamespaceRegExp]
-        }),
-        postcssDiscardDuplicates
-      ]))
       .pipe(transformSelectors(removeOutsideNamespaceMarker, { splitOnCommas: true }))
-      .pipe(gulp.dest('css/'));
+      .pipe(gulp.dest('css/civicrm'));
   });
 
   gulp.task('sass', gulp.parallel('sass:bootstrap', 'sass:civicrm'));

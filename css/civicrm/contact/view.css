@@ -1,0 +1,15 @@
+.contact-common-1 {
+  content: 'contact common rule #1';
+}
+
+.contact-common-2 {
+  content: 'contact common rule #2';
+}
+
+.contact-view-specific {
+  content: 'contact view specific';
+}
+
+.contact-view {
+  content: 'civicrm/contact/view';
+}
